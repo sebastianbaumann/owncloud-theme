@@ -12,9 +12,10 @@ $background-color: #263238 !default;
 
 
 // MEDIA QURIES
-
+$small-screen-up: 	 330px !default;
 $medium-screen-up: 	 768px !default;
 $large-screen-up: 	1201px !default;
 
+$small-and-up:	 	"only screen and (min-width : #{$small-screen-up})" !default;
 $medium-and-up:	 	"only screen and (min-width : #{$medium-screen-up})" !default;
 $large-and-up: 		"only screen and (min-width : #{$large-screen-up})" !default;
