@@ -1,0 +1,19 @@
+ /* ==========================================================================
+	Variables
+=========================================================================== */
+
+
+// COLORS
+
+$primary-color:    #1D2D44 !default;
+$accents-color:    #00E5FF !default;
+$background-color: #263238 !default;
+
+
+// MEDIA QURIES
+
+$medium-screen-up: 	 768px !default;
+$large-screen-up: 	1201px !default;
+
+$medium-and-up:	 	"only screen and (min-width : #{$medium-screen-up})" !default;
+$large-and-up: 		"only screen and (min-width : #{$large-screen-up})" !default;

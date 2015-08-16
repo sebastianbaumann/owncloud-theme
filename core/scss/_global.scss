@@ -1,0 +1,18 @@
+ /* ==========================================================================
+	Global Styles & Reset
+=========================================================================== */
+
+
+html {
+	font-size: 15px !important; //set 1rem = 15px
+}
+
+
+// overwrite fonts {wtf - why isn't it just set globaly -.-}
+body,
+input, 
+textarea, 
+select, 
+button{
+	font-family: 'Muli', sans-serif !important;
+}
