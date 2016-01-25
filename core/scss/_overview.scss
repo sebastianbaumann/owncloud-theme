@@ -1,0 +1,48 @@
+ /* ==========================================================================
+	Overview
+=========================================================================== */
+
+
+// HEADER
+
+$header-height: 55px;
+
+#body-user #header, 
+#body-settings #header, 
+#body-public #header {
+	height: $header-height;
+	line-height: 3.45em;
+}
+
+.searchbox input[type="search"] {
+	margin-top: 12px;
+}
+
+#header .icon-caret {
+	margin-top: -24px
+}
+
+#expand img {
+	margin-bottom: -1px;
+}
+
+// logo
+#owncloud {
+	padding-top: 10px;
+}
+
+#content-wrapper {
+	padding-top: $header-height;
+}
+
+#controls {
+	top: $header-height;
+
+}
+
+
+//align icons due changed font
+a.action>img {
+	margin-bottom: 2px;
+    margin-right: 3px;
+}

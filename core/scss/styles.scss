@@ -2,6 +2,7 @@
 	ownCloud Theme - Main .scss file
 
 	NOTE: autoprefixer is used for post compiling - no vendor-prefixes needed!
+	Only Tested in Chrome
 =========================================================================== */
 
 //import all assets
@@ -9,3 +10,4 @@
 @import "vars.scss";
 @import "global.scss";
 @import "login.scss";
+@import "overview.scss";

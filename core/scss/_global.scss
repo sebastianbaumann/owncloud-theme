@@ -4,15 +4,22 @@
 
 
 html {
-	font-size: 15px !important; //set 1rem = 15px
+	font-size: 100% !important; //set 1rem = 16px
 }
 
 
-// overwrite fonts {wtf - why isn't it just set globaly -.-}
+// overwrite fonts
+body {
+	font-size: 0.8667rem;
+}
+
 body,
 input, 
 textarea, 
 select, 
 button{
-	font-family: 'Muli', sans-serif !important;
+	font-family: $font-family !important;
+	text-rendering: optimizeLegibility;
+    letter-spacing: 0.25px;
 }
+
